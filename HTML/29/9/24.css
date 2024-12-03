@@ -1,0 +1,29 @@
+/* 
+ */
+ :root{
+    --Kalar: rgb(10, 10, 20);
+    --font : 15px
+    --cabir : 30px
+ }
+ .box{
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    position: relative;
+    left: 500px;
+    top: 200px;
+    box-shadow: 10px 10px 10px rgb(78, 1, 1);
+    display: flex;
+}  
+ .boxs{
+   width: 200px;
+   height: 150px;
+   background-color: var(--Kalar);
+   margin: 20px;
+   font-size: var(font);
+   color: beige;
+   width: var(cabir);
+ }
+ .box :not(.qaas){
+    background-color: var(--Kalar);
+ }

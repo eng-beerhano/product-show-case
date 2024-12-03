@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+.Header ul{
+    display: flex;
+    
+}
+.Header ul li{
+    list-style: none;
+}
+.Header ul li a{
+    padding: 20px;
+    color: rgb(172, 138, 138);
+    text-decoration: none;
+    
+}
+.Header .BTN{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(241, 233, 233);
+    border-radius: 10%;
+}
+.right img{
+    width: 350px;
+    height: 350px;
+}
+.About{
+    display: flex;
+}
+.About p{
+    color: rgb(172, 138, 138); 
+    margin-right: 10%;
+    margin-bottom: 3%;
+}
+.About h4{
+    font-weight: bold;
+    margin-left: 8%;
+    MARGIN-top: 6%;
+    font-size: 90px;
+}
+ .About .left i{
+    color: grey;
+    margin: 6px;
+}
+
+
+.About .left{
+    margin-left: 4%;
+}
+
+#av{
+    color: rgb(5, 75, 5);
+}
+.hee{
+    display: flex;
+    padding: 10px;
+}
+.hee .left img{
+    margin-left: 3%;
+}
+.hee .right h3{
+    margin-left: 11%;
+    font-size: 40px;
+}
+.hee .right p{
+    margin-left: 9%;
+    color: grey;
+    margin-right: 20%;
+   
+}
+.hee .right p a{
+    color: grey; 
+}
+.th{
+    display: flex;
+}
+.tw{
+    display: flex;
+}
+.ul{
+
+}
+.hee .right .p .ul ul{
+    
+}
+#Do{
+    margin-left: 6%;
+}
+.me .aone a{
+    background-color: rgb(207, 186, 186);
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 110px;
+    text-decoration: none;
+    color: grey; 
+}
+

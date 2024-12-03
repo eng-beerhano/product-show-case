@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+
+}
+.header{
+    background-color: #00D900;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 60px;
+    padding: 10px;
+}
+.header ul li {
+    list-style: none;
+   
+}
+.header ul{
+    display: flex;
+    
+
+}
+.header ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+   
+}
+.header ul li a:hover{
+    color: black;
+}
+.header h4{
+    font-size: 28px;
+    margin-left: 8%;
+}
+.hero{
+    display: flex;
+}
+
+.hero .right img{
+    width: 400px;
+    height: 400px;
+    margin-right: 150px;
+    border-radius: 50%;;
+    margin-top: 20%;
+    
+    
+}
+.hero .left h4{
+    font-size: 350px;
+    margin-left: 8%;
+    
+}
+.hero .left p{
+    margin-right: 300px;
+    margin-bottom: 50%;
+    margin-left: 9%;
+}
+.hero a{
+    background-color: #00D900;
+    border-radius: 15%;
+    font-size: 30px;
+    color: azure;
+    margin-left: 30px;
+}
+.About{
+    display: flex;
+    margin-top: -25%;
+    
+}
+.About .right h3{
+ font-size: 80px;
+ margin-left: 30px;
+}
+.About .right h4{
+    font-size: 40px;
+    margin-left: 100px;
+}
+.About .left img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 6%;
+}
+.About .right p{
+    margin-left: 50px;
+    margin-bottom: 6px;
+    margin-right: 50%;
+}
+.About .right a{
+    background-color: #00D900;
+    border-radius: 6%;
+    font-size: 30px;
+    color: azure;
+    margin-left: 9%;
+    text-decoration: none;
+
+}
+.hero .left a{
+    background-color: #00D900;
+    color: white;
+    border-radius: 7%;
+    font-size: 20px;
+}
+.right img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    
+}
+.Expriences .cali{
+    display: flex;
+    margin-left: 5%;
+}
+.Expriences .cali .Technologies{
+    margin-left: 5%;
+}
+.Expriences .cali .expr{
+    margin-left: 5%;
+}
+.Expriences h1{
+    margin-left: 20%;
+   color: #00D900;
+   
+}
+.Expriences .cali .skiklls h3{
+    color: #00D900;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Expriences .cali .Technologies h3{
+    color: #00D900;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Expriences .cali .expr h3{
+    color: #00D900;
+    font-size: 20px;
+    font-weight: bold;
+}
+.About .right a:hover{
+ background-color: green;
+}
+input{
+    margin-top: 10px;
+}
+.Get{
+    margin-left: 30%;
+    background-color: rgb(219, 214, 214);
+    width: 400px;
+    height: 400px;
+    margin-bottom: 30%;
+}
+.txt{
+  margin-bottom: -60%;
+}
+.MSG{
+    margin-bottom: -60%;
+}

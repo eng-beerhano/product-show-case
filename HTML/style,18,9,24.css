@@ -1,0 +1,21 @@
+/* colors */
+/* 1.by color names: color:blue;*/
+/* 2.1 by rgb: stand for red,green,blue color: rgb(red, green, blue); */
+/* 2.2 BY rgba: stand for red,green,blue alpha  */
+/* 3.by hex: #000000, background-color: #00ff00; */
+/* 4.by hsl : color: hsl(76, 56%, 9%; */
+
+.box{
+    background-color:orangered;
+    color: white;
+    height:300px ;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+
+}
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}

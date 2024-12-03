@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(230, 223, 223, 0.377);
+}
+:root{
+    --primary-color:rgba(220, 218, 218, 0.842);
+    --secondary-color: rgb(25, 25, 25);
+    --text-color: rgba(235, 233, 233, 0.566);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    height: 50px;
+}
+
+.header .logos img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+    ;
+}
+.header .logos{
+    padding: 5px;
+}
+.header .logos span{
+   position: relative;
+   bottom: 13px;
+   font-size: 20px;
+   left: 4px;
+}
+.header .tabs ul{
+    display: flex;
+}
+
+.header .tabs {
+    padding: 5px;
+}
+.header .tabs ul li{
+    list-style: none;
+    margin: 10px;
+}
+.header .tabs ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.header .tabs .min{
+    font-size: 20px;
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+/* sidebar  */
+.sidebar {
+  width: 50px;
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+.sidebar .top{
+    margin-top: -10px;
+    padding-top: 20px;
+}
+.sidebar .top ul li{
+    list-style: none;
+    margin: 10px;
+}
+.sidebar .top ul li a{
+    color: var(--secondary-color);
+    font-size: 22px;
+}
+
+.sidebar .bottom img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.sidebar .bottom{
+   position: absolute;
+   bottom: 0;
+}
+.sidebar .bottom ul li{
+    list-style: none;
+    margin: 10px;
+}
+.sidebar .bottom ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 22px;
+}
+
+.main{
+    display: flex;
+}
+
+/* chats */
+.chats{
+    width: 3000px;
+    height: 100vh;
+    background-color: white;
+    border-top-left-radius: 10px;
+    padding: 15px;
+}
+.chats .user img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.chats .text h4{
+    display: none;
+}
+.chats .text{
+    display: flex;
+    justify-content: space-between;
+}
+.chats .text ul{
+    display: flex;
+    justify-content: space-around;
+}
+.chats .text ul li{
+    list-style: none;
+    margin: 6px;
+}
+
+.chats .text ul li a{
+    color: var(--secondary-color);
+}
+.chats input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 2px solid green;
+    margin-bottom: 16px;
+}
+.list{
+    display: none;
+}
+.chats .user{
+    display: flex;
+    gap: 10px;
+}
+
+.chats .user .txt span{
+    position: relative;
+    left: 80px;
+    bottom: 17px;
+
+}
+
+.chats .span{
+    position: relative;
+    right: 1100px;
+    top: 160px;
+}
+.center .head img{
+    margin-top: 4%;
+    margin-left: 3%;
+}
+.center .head .h1{
+    display: flex;
+}
+.center .head .h1 span{
+    margin-top: 17%;
+    font-size: 20px;
+}
+.center .head{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+    width: 180vh;
+}
+.center .head ul{
+    display: flex;
+    position: relative;
+    bottom: -30%;
+}
+.center .head ul li{
+    list-style: none;
+}
+.center .head ul li a{
+    text-decoration: none;
+    color: var(--secondary-color);
+   
+}
+.center .head ul li a{
+    margin-left: 4000%;
+}
+.center .head img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.fariin {
+    margin-top: 400px;
+    margin-left: 4%;
+    background-color: white;
+    width: 100px;
+   border-radius: 10%;
+   margin-bottom: 95px;
+   gap: 10px;
+}
+.fariin h6{
+    margin-left: 70%;
+    color: rgb(91, 87, 87);
+}
+.botton{
+    margin-top: 20px;
+    padding: 20x;
+}
+.botton ul li{
+    list-style: none;
+}
+.botton ul li a{
+    text-decoration: none;
+}
+.botton ul{
+    display: flex;
+    justify-content: space-between;
+}
+.voice{
+    margin-left: 20px;
+    color: var(--secondary-color);
+    margin-top: 20px;
+}
+.vice li a:hover{
+   background-color: rgb(191, 175, 175);
+}
+.massage{
+    margin-left: 50px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 800px;
+
+}
+.circle{
+    margin-left: 23px;
+}
+.face{
+    margin-left: 10px;
+}
+.another{
+    display: none;
+}
+
